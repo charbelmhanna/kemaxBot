@@ -1,0 +1,29 @@
+{
+  "name": "kemaxBot",
+  "version": "1.0.0",
+  "description": "Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src/",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charbelmhanna/kemaxBot.git"
+  },
+  "keywords": [],
+  "author": "Charbel Mhanna <charbel.mhanna@outlook.com> (https://charbelm.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charbelmhanna/kemaxBot/issues"
+  },
+  "homepage": "https://github.com/charbelmhanna/kemaxBot#readme",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0",
+    "make-promises-safe": "^5.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.7.0"
+  }
+}
